@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#logo{
+	width:200px;
+	position:relative;
+	top:-10px;
+	left:0px;
+}
+#menu {
+	font-family:Jura_demibold;
+	font-size:20px;
+	position:relative;
+	top:-5px;
+	width: 600px;
+	margin: 0 auto;
+    margin-left:-50px;
+	/* centraliza esta div ::::::::: Nota: Para que isto funcione, a div acima tem de ter width defenido, neste caso a div acima é a div heasder*/
+}

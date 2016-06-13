@@ -1,0 +1,252 @@
+@CHARSET "ISO-8859-1";
+
+
+@font-face {
+    font-family: Jura_demibold;
+    src: url(../fonts/Jura-DemiBold.otf); 
+}
+
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster.otf); 
+}
+@font-face {
+    font-family: Ubuntu_Bold;
+    src: url(../fonts/Ubuntu_Bold.otf); 
+}
+@font-face {
+    font-family: Play_Regular;
+    src: url(../fonts/Play-Regular.ttf); 
+}
+
+html,body{
+	 overflow-x: hidden;
+	
+
+}
+body{
+	overflow-y: hidden;
+}
+body {
+	background-image: url(../img/teclas.png);
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width-max:1200px;
+	padding:0;
+	margin:0;
+	
+	
+}
+
+#header {
+	width: 100%;
+	height:80px;
+	align: center;
+	background-color:rgba(0,0,0,0.3);
+	border-bottom:1px solid rgba(0,0,0,.2);
+}
+footer{
+	width: 100%;
+	height:150px;
+	text-align: center;
+	border-top:1px solid rgba(0,0,0,.2);
+	background-color: rgba(90,90,90,0.9);
+}
+footer a {
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration:none;
+	color:black;
+}
+
+#menu {
+	
+	font-family:Jura_demibold;
+	font-size:20px;
+	position:relative;
+	top:-120px;
+	width: 600px;
+	margin: 0 auto;
+	/* centraliza esta div ::::::::: Nota: Para que isto funcione, a div acima tem de ter width defenido, neste caso a div acima é a div heasder*/
+}
+
+#menu ul {
+	list-style: none;
+	width:1200px;
+}
+
+#menu ul li {
+	display: inline-block; /*pra por os menus em linha*/
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#menu ul li a{
+	color:white;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	color:rgb(0,0,0);
+
+	  
+}
+#logo{
+	width:200px;
+	position:relative;
+	top:-10px;
+	left:140px;
+}
+#logoMenu2{
+	width:200px;
+	position:relative; top:-3px;
+	left:250px;
+}
+#info{
+	
+	
+	
+}
+#centro{
+	
+	width:1200px;
+	margin: 0 auto;
+}
+#centro table{
+	width:1000px;
+	margin: 0 auto;
+     border-spacing: 10px;
+    border-collapse: separate;
+}
+#centro td{
+align:center;
+	
+	color:rgb(220,220,220);
+	cursor:pointer;
+	font-family: Play_Regular;
+	/*background-color:rgba(255,255,255,0.5);*/
+	padding:20px;
+    vertical-align: text-top;
+	
+
+}
+#centro video{
+	position:relative;
+	left:130px;
+}
+
+
+
+#centro tr{
+	
+	background-color:rbga(255,255,255,0.7);
+
+}
+#centro h1{
+	text-align:center;
+	font-family:Ubuntu_Bold§;
+}
+#secondBack{
+	position:relative;
+	top:-20px;
+	width:100%;
+	height:800px;
+	/*	background-image: url(../img/teclas.jpg);*/
+	background-color: rgba(90,90,90,0.9);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color:white;
+}
+#secondBack h1{
+	text-align:center;
+}
+#secondBack h2{
+	text-align:center;
+}
+
+#mobileApps{
+	width:750px;
+	margin:0 auto;
+	position:relative;
+	top:100px;
+
+}
+#menu2{
+	z-index:200;
+	position:fixed;
+	top:0;
+	display:none;
+	margin: 0 auto;
+	width:100%;
+	height:50px;
+	background-color: rgba(60,60,60,1);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+#menu2 img{
+	position:relative;
+	top:-29px;
+}
+#menu2 ul {
+	position:relative;
+	top:-80px;
+	left:350px;
+	list-style: none;
+	margin: 0 auto;
+	width:1200px;
+}
+
+#menu2 ul li {
+	margin: 0 auto;
+	display: inline-block; /*pra por os menus em linha*/
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#menu2 ul li a{
+	margin: 0 auto;
+	color:white;
+	text-decoration: none;
+}
+#menu2 ul li a:hover{
+	color:rgb(0,0,0);
+
+	  
+}
+#search{
+	position:relative;
+	top:-27px;
+	left:550px;
+
+	
+}
+#searchBox{
+	
+	position:relative;
+	top:3px;
+	display:none;
+	transition: visibility 2s;
+}
+#mGlass{
+	position:relative;
+	
+
+}
+#mGlass:hover{
+		cursor:pointer;
+}
+#whiteX{
+	display:none;
+	position:relative;
+	left:140px;
+	top:-23px;
+	
+
+}
+#whiteX:hover{
+		cursor:pointer;
+}
+
+
